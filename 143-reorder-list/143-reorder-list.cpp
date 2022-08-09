@@ -30,11 +30,11 @@ public:
             st.pop();
         }
         ptr->next=NULL;
-        while(head!=NULL){
-            cout<<head->val<<" ";
-            head=head->next;
-        }
-        cout<<endl;
+        // while(head!=NULL){
+        //     cout<<head->val<<" ";
+        //     head=head->next;
+        // }
+        // cout<<endl;
         
     }
 };
